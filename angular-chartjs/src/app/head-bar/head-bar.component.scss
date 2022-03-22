@@ -1,0 +1,18 @@
+.header {
+  &-container {
+    width: 100vw;
+    height: 80px;
+    background-color: #323a45;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    .logo {
+      color: #FFF;
+      font-family: "Lucida Console", monospace;
+      font-size: 35px;
+      margin-left: 40px;
+      text-align: center;
+    }
+  }
+}

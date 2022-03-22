@@ -1,0 +1,112 @@
+.pie{
+  &-container{
+    box-shadow: #000;
+    box-shadow: 10px;
+    border-radius: 16px;
+    margin: 10px;
+    background-color: #FBFBFB;
+    width: 80vw;
+    height: 80vh;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    .title{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 10vh;
+      width: 100%;
+      text-align: center;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      .header{
+        font-size: 30px;
+        margin: 10px;
+      }
+      .subheader{
+        font-size: 15px;
+        font-weight: lighter;
+      }
+    }
+    .data-display{
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+  }
+}
+
+.mat-elevation-z8{
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.full-width-table {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.mat-header-cell{
+  color: #000
+}
+
+.mat-cell{
+  color: #000;
+}
+
+.mat-paginator{
+  color: #000;
+  background-color: #fff;
+}
+
+::ng-deep .mat-sort-header-container{
+  justify-content: center;
+}
+
+::ng-deep .mat-paginator{
+  border-radius: 10px;
+}
+
+::ng-deep .mat-header-row{
+  border: 10px #000;
+}
+
+::ng-deep .mat-select-value {
+  color: #000;
+  background-color: #fff;
+}
+::ng-deep .mat-select-arrow {
+    color: #000;
+    background-color: #fff;
+}
+::ng-deep .mat-option{
+  background-color: #fff;
+}
+::ng-deep .mat-option-text {
+  color: #000;
+  background-color: #fff;
+}
+
+::ng-deep .mat-selected{
+  background-color: #fff;
+}
+
+::ng-deep .mat-active{
+  background-color: #fff;
+}
+
+::ng-deep .mat-focus-indicator{
+  background-color: #fff;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  background-color: #fff;
+}
