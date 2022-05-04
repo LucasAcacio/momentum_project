@@ -10,7 +10,7 @@ from dateutil.relativedelta import relativedelta
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:passwordwedo@wedostuff.cbipuipi6mh8.us-east-1.rds.amazonaws.com:3306/wedostuff'
+app.config['SQLALCHEMY_DATABASE_URI'] = '****'
 
 db.init_app(app)
 migrate = Migrate(app, db)
